@@ -30,6 +30,8 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     EditText edtCodigo,edtProducto,edtPrecio,edtFabricante,et_buscar;
     Button btnCargar,btnBuscar,btnModificar,btnEliminar;
+//ejemploooo de edit
+    EditText Hola;
 
     RequestQueue requestQueue;
     @Override
@@ -80,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void ejecutarServicio (String URL){
         StringRequest stringRequest= new StringRequest(Request.Method.POST,URL, new Response.Listener<String>() {
+
 
             @Override
             public void onResponse(String response) {
