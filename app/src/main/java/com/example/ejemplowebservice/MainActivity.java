@@ -30,8 +30,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     EditText edtCodigo,edtProducto,edtPrecio,edtFabricante,et_buscar;
     Button btnCargar,btnBuscar,btnModificar,btnEliminar;
-//ejemploooo de edit
-    EditText Hola;
+//ejemploooo de edi
 
     RequestQueue requestQueue;
     @Override
